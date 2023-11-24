@@ -1,0 +1,14 @@
+[package]
+version = "0.5.5"
+
+[package.metadata.resalt]
+news = [
+    "Resalt 0.4.1 released§Resalt 0.4.1 is now available. Removed legacy graph system, and implemented optional Prometheus metrics export endpoint.",
+    "Resalt 0.4.0 released§Resalt 0.4.0 is now available. Implemented LDAP syncing of groups and email, and several UI and UX improvements.",
+    "Resalt 0.3.1 released§Resalt 0.3.1 is now available. Fixed minor issue where Minion List would not paginate.",
+    "Resalt 0.3.0 released§Resalt 0.3.0 is now available. Implemented the ability to store custom filters as \"Presets\". Additionally several minor UI and permission fixes.",
+    "Resalt 0.2.2 released§Resalt 0.2.2 is now available. Reimplemented permission checking logic, ability to jump from Minion to Run directly, and several minor UI fixes.",
+    "Resalt 0.2.1 released§Resalt 0.2.1 is now available. Minor fixes to Dashboard UI, and fixed a bug where the Salt API would reject Run requests even when a user is authenticated.",
+    "Resalt 0.2.0 released§Resalt 0.2.0 is now available. This release includes a fix where compliance data wasn't stored when triggered from minion, improved permission checking, and several UI fixes.",
+    "Resalt 0.1.6 released§Resalt 0.1.6 is now available. This release includes large UI updates, continued implementation of the permission system, the ability to see grains of offline minions, dependency updates, accessibility updates, enforcement of code linting, a severe improvement of compilation times for the frontend, and a lot of bug fixes.",
+]
